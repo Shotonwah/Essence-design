@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(218, 227, 230);
+}
+.Container{
+    display: flex; 
+    background: whitesmoke;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 5px rgba(0, 0, 0,.2);
+    color: black;
+    border-radius: 10px;
+    padding: 20px 20px; 
+    width: fit-content;
+    place-items: center;
+    margin: 40px auto 0;
+}
+@media (max-width: 786px) {
+    .Container {
+        display: block;
+    }
+    .head {
+        text-align: center;
+    }
+}
+.internal{
+    display: block;
+}
+.perfume{
+    background-position: 10px;
+    background: transparent;
+}
+.head{
+    font-size: 20px;
+    font-display: top;
+    font-family: 'Courier New', Courier, monospace;
+}
+.section{
+    font-size: 40px;
+    font-weight: bold 700;
+}
+.paragraph{
+    font-family: 'Courier New', Courier, monospace;
+}
+.side{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px auto 0;
+    align-items: baseline;
+}
+.into{
+    font-size: 30px;
+    color: #4caf50;
+    margin-bottom: -20px;
+}
+.in{
+
+    text-decoration: line-through;
+    font-size: 20px;
+}
+.start{
+    width: 300px;
+    border: none;
+    background-color: #4caf50;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.start a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
