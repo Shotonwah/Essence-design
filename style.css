@@ -18,9 +18,9 @@ body{
     .Container {
         display: block;
     }
-    .head {
+    /* .head {
         text-align: center;
-    }
+    } */
 }
 .internal{
     display: block;
@@ -51,22 +51,32 @@ body{
     font-size: 30px;
     color: #4caf50;
     margin-bottom: -20px;
+    font-weight: 700;
 }
 .in{
 
     text-decoration: line-through;
-    font-size: 20px;
+    font-size: 18px;
 }
 .start{
-    width: 300px;
+    width: 250px;
     border: none;
     background-color: #4caf50;
     text-align: center;
     border-radius: 10px;
     font-size: 15px;
+    display: flex;
+    gap: 5px;
+    padding: 15px 15px;
 }
 .start a{
     text-decoration: none;
     font-size: 20px;
     color: white;
+    padding-left: 20px;
+}
+.icon {
+    font-size: 20px;
+    padding-left: 20px;
+    color: rgb(39, 37, 37);
 }
